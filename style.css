@@ -3,17 +3,19 @@
   padding: 0;
   box-sizing: border-box;
 }
+.container {
+  width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
 .top-wrapper {
   padding: 180px 0 100px 0;
   background-image: url(img/airport.jpg);
   background-size: cover;
-}
-.container {
-  width: 1170px;
-  padding: 0 15px;
   color: white;
-  margin: 0 auto;
+  text-align: center;
 }
+
 .top-wrapper h1 {
   opacity: 0.7;
   letter-spacing: 5px;
@@ -22,15 +24,32 @@
 .top-wrapper p {
   opacity: 0.7;
 }
-.btn-wrapper {
+.btn {
+  border-radius: 4px;
+  padding: 8px 24px;
+  display: inline-block;
+  opacity: 0.8px;
   color: white;
 }
+.btn:hover {
+  opacity: 1;
+}
 .signup {
-  background-color: green;
+  background-color: #239b76;
 }
 .twitter {
-  background-color: lightblue;
+  background-color: #55acee;
 }
 .facebook {
-  background-color: blue;
+  background-color: #3b5998;
+  margin-right: 10px;
+}
+.btn-wrapper {
+  margin: 20px 0;
+}
+.btn-wrapper p {
+  margin: 10px 0;
+}
+.fab {
+  margin-right: 5px;
 }
